@@ -12,3 +12,8 @@ see description*.jpg
 dependency on
 
   - https://github.com/foostan/kbd/tree/master/kbd.pretty
+
+
+## cases
+
+currently, not compatible with some switches.
