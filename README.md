@@ -1,4 +1,4 @@
-# elephant42
+# :elephant:42 (elephant42)
  hardware of elephant42 keyboard
 
 
