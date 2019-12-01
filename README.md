@@ -1,5 +1,9 @@
 # :elephant:42 (elephant42)
 
+## ?
+
+![what-is-this](what-is-this.jpg)
+
 ## plates
 
 see description*.jpg
