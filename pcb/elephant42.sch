@@ -755,7 +755,7 @@ U 1 1 5DCBB855
 P 10625 3425
 F 0 "RESET_SW1" H 10625 3680 50  0000 C CNN
 F 1 "SW_PUSH" H 10625 3589 50  0000 C CNN
-F 2 "kbd:ResetSW" H 10625 3425 50  0001 C CNN
+F 2 "phi-kbd-library:ResetSW-irreversible" H 10625 3425 50  0001 C CNN
 F 3 "" H 10625 3425 50  0000 C CNN
 	1    10625 3425
 	1    0    0    -1  
@@ -822,83 +822,6 @@ Wire Wire Line
 NoConn ~ 11700 3350
 Text GLabel 10575 1725 0    50   Input ~ 0
 led_l
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5DC918F5
-P 8825 3775
-F 0 "H2" H 8925 3821 50  0000 L CNN
-F 1 "MountingHole" H 8925 3730 50  0000 L CNN
-F 2 "kbd:HOLE" H 8825 3775 50  0001 C CNN
-F 3 "~" H 8825 3775 50  0001 C CNN
-	1    8825 3775
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 5DC92AC8
-P 8825 4450
-F 0 "H5" H 8925 4496 50  0000 L CNN
-F 1 "MountingHole" H 8925 4405 50  0000 L CNN
-F 2 "kbd:HOLE" H 8825 4450 50  0001 C CNN
-F 3 "~" H 8825 4450 50  0001 C CNN
-	1    8825 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5DC93EDB
-P 8825 3550
-F 0 "H1" H 8925 3596 50  0000 L CNN
-F 1 "MountingHole" H 8925 3505 50  0000 L CNN
-F 2 "kbd:HOLE" H 8825 3550 50  0001 C CNN
-F 3 "~" H 8825 3550 50  0001 C CNN
-	1    8825 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5DC95321
-P 8825 4000
-F 0 "H3" H 8925 4046 50  0000 L CNN
-F 1 "MountingHole" H 8925 3955 50  0000 L CNN
-F 2 "kbd:HOLE" H 8825 4000 50  0001 C CNN
-F 3 "~" H 8825 4000 50  0001 C CNN
-	1    8825 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5DC96701
-P 8825 4225
-F 0 "H4" H 8925 4271 50  0000 L CNN
-F 1 "MountingHole" H 8925 4180 50  0000 L CNN
-F 2 "kbd:HOLE" H 8825 4225 50  0001 C CNN
-F 3 "~" H 8825 4225 50  0001 C CNN
-	1    8825 4225
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H7
-U 1 1 5DC97AAE
-P 8825 4900
-F 0 "H7" H 8925 4946 50  0000 L CNN
-F 1 "MountingHole" H 8925 4855 50  0000 L CNN
-F 2 "kbd:HOLE" H 8825 4900 50  0001 C CNN
-F 3 "~" H 8825 4900 50  0001 C CNN
-	1    8825 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 5DC98E5B
-P 8825 4675
-F 0 "H6" H 8925 4721 50  0000 L CNN
-F 1 "MountingHole" H 8925 4630 50  0000 L CNN
-F 2 "kbd:HOLE" H 8825 4675 50  0001 C CNN
-F 3 "~" H 8825 4675 50  0001 C CNN
-	1    8825 4675
-	1    0    0    -1  
-$EndComp
 $Comp
 L kbd:ProMicro U2
 U 1 1 5DF30657
@@ -1044,7 +967,7 @@ U 1 1 5DF54E3D
 P 13525 3450
 F 0 "RESET_SW2" H 13525 3705 50  0000 C CNN
 F 1 "SW_PUSH" H 13525 3614 50  0000 C CNN
-F 2 "kbd:ResetSW" H 13525 3450 50  0001 C CNN
+F 2 "phi-kbd-library:ResetSW-irreversible" H 13525 3450 50  0001 C CNN
 F 3 "" H 13525 3450 50  0000 C CNN
 	1    13525 3450
 	1    0    0    -1  
@@ -1663,83 +1586,6 @@ Wire Wire Line
 	1775 9125 2875 9125
 Wire Wire Line
 	2275 7975 2275 8825
-$Comp
-L Mechanical:MountingHole H9
-U 1 1 5DFFDD65
-P 8825 7975
-F 0 "H9" H 8925 8021 50  0000 L CNN
-F 1 "MountingHole" H 8925 7930 50  0000 L CNN
-F 2 "kbd:HOLE" H 8825 7975 50  0001 C CNN
-F 3 "~" H 8825 7975 50  0001 C CNN
-	1    8825 7975
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H12
-U 1 1 5DFFDD6B
-P 8825 8650
-F 0 "H12" H 8925 8696 50  0000 L CNN
-F 1 "MountingHole" H 8925 8605 50  0000 L CNN
-F 2 "kbd:HOLE" H 8825 8650 50  0001 C CNN
-F 3 "~" H 8825 8650 50  0001 C CNN
-	1    8825 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H8
-U 1 1 5DFFDD71
-P 8825 7750
-F 0 "H8" H 8925 7796 50  0000 L CNN
-F 1 "MountingHole" H 8925 7705 50  0000 L CNN
-F 2 "kbd:HOLE" H 8825 7750 50  0001 C CNN
-F 3 "~" H 8825 7750 50  0001 C CNN
-	1    8825 7750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H10
-U 1 1 5DFFDD77
-P 8825 8200
-F 0 "H10" H 8925 8246 50  0000 L CNN
-F 1 "MountingHole" H 8925 8155 50  0000 L CNN
-F 2 "kbd:HOLE" H 8825 8200 50  0001 C CNN
-F 3 "~" H 8825 8200 50  0001 C CNN
-	1    8825 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H11
-U 1 1 5DFFDD7D
-P 8825 8425
-F 0 "H11" H 8925 8471 50  0000 L CNN
-F 1 "MountingHole" H 8925 8380 50  0000 L CNN
-F 2 "kbd:HOLE" H 8825 8425 50  0001 C CNN
-F 3 "~" H 8825 8425 50  0001 C CNN
-	1    8825 8425
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H14
-U 1 1 5DFFDD83
-P 8825 9100
-F 0 "H14" H 8925 9146 50  0000 L CNN
-F 1 "MountingHole" H 8925 9055 50  0000 L CNN
-F 2 "kbd:HOLE" H 8825 9100 50  0001 C CNN
-F 3 "~" H 8825 9100 50  0001 C CNN
-	1    8825 9100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H13
-U 1 1 5DFFDD89
-P 8825 8875
-F 0 "H13" H 8925 8921 50  0000 L CNN
-F 1 "MountingHole" H 8925 8830 50  0000 L CNN
-F 2 "kbd:HOLE" H 8825 8875 50  0001 C CNN
-F 3 "~" H 8825 8875 50  0001 C CNN
-	1    8825 8875
-	1    0    0    -1  
-$EndComp
 $Comp
 L kbd:OLED OL2
 U 1 1 60191F70
