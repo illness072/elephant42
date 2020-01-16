@@ -23,18 +23,4 @@ currently, not compatible with some switches.
 
 ## assembly
 
-### Back side
-
-- D (1N4148)
-  - x21 * 2
-- MX Socket
-  - x21 * 2
-
-### Front side
-
-- TRRS Jack (MJ-4PP-9)
-  - x2
-- tact switch
-  - x2
-- Pro Micro with Spring pin-header
-  - x2
+[Build Guide (Japanese)](doc/build-guide.md)
