@@ -59,14 +59,14 @@
 
 内容物に不足や破損などがないか確認してください。
 
-| ![基板(PCB)](item_pcb.jpeg) | ![トッププレート](item_top_plate.jpeg) | ![ミドルプレート](item_middle_plate.jpeg) | ![ボトムプレート](item_bottom_plate.jpeg) |
+| ![基板(PCB)](build-guide/item_pcb.jpeg) | ![トッププレート](build-guide/item_top_plate.jpeg) | ![ミドルプレート](build-guide/item_middle_plate.jpeg) | ![ボトムプレート](build-guide/item_bottom_plate.jpeg) |
 |:--:|:--:|:--:|:--:|
 |メイン基板(PCB) ... 1枚|トッププレート ... 2枚<br/>(薄くて穴が小さい方)|ミドルプレート ... 2枚<br/>(厚くて穴が大きい方)|ボトムプレート ... 2枚|
-| ![ProMicro 保護プレート](item_promicro_plate.jpeg) | ![ダイオード](item_diode.jpeg) | ![MX 互換スイッチ用 PCB ソケット](item_mx_socket.jpeg) | ![TRRS ジャック](item_trrs_jack.jpeg) |
+| ![ProMicro 保護プレート](build-guide/item_promicro_plate.jpeg) | ![ダイオード](build-guide/item_diode.jpeg) | ![MX 互換スイッチ用 PCB ソケット](build-guide/item_mx_socket.jpeg) | ![TRRS ジャック](build-guide/item_trrs_jack.jpeg) |
 | ProMicro 保護プレート ... 2枚 | ダイオード ... 44個<br/>(予備2個) | MX 互換スイッチ用<br/>PCB ソケット ... 42個 | TRRS ジャック ... 2個 |
-| ![タクトスイッチ](item_tact_switch.jpeg) | ![スペーサー(短)](item_spacer_short.jpeg) | ![スペーサー(長)](item_spacer_long.jpeg) | ![ネジ](item_screw.jpeg) |
+| ![タクトスイッチ](build-guide/item_tact_switch.jpeg) | ![スペーサー(短)](build-guide/item_spacer_short.jpeg) | ![スペーサー(長)](build-guide/item_spacer_long.jpeg) | ![ネジ](build-guide/item_screw.jpeg) |
 | タクトスイッチ ... 2個<br/>※色は異なる場合があります | スペーサー(短) ... 20本 | スペーサー(長) ... 4本 | ネジ ... 40本 |
-| ![クッションゴム](item_cushion_rubber.jpeg) ||||
+| ![クッションゴム](build-guide/item_cushion_rubber.jpeg) ||||
 | クッションゴム ... 10個 ||||
 
 ※ 初回生産分には、ProMicro 保護プレートは 2mm 厚のものが 2 枚、3mm 厚のものが 2 枚、計 4 枚含まれています。好みで選択してください。
@@ -274,7 +274,7 @@ avrdude done.  Thank you.
 
 **このとき、Pro Micro を勢いよく引っこ抜くと Micro USB ジャック が基板からもげて使い物にならなくなってしまいます。細心の注意を払ってゆっくり優しく真っ直ぐに抜くようにしてください。**
 
-| ![connect](./promicro_connect.jpeg) | ![firmware](./promicro_reset.jpeg) |
+| ![connect](build-guide/./promicro_connect.jpeg) | ![firmware](build-guide/./promicro_reset.jpeg) |
 |--|--|
 | PC に ProMicro を接続し、書き込みコマンドを起動します | 待機状態になったら、RST と GND を一瞬ショートさせて書き込み処理を実行します |
 
@@ -302,14 +302,14 @@ PCB を 2 つに分割します。ミシン目に沿ってカッターで切り�
 **カッターで基板の他の部分を傷つけないよう注意してください。**
 **基板を折るさい、他の部分が折れたり曲がったりしないよう対象箇所のすぐそばを持って力を加えてください。**
 
-| ![初期状態](pcb_first.jpeg) | ![切り込みを入れる](pcb_cutter.jpeg) |
+| ![初期状態](build-guide/pcb_first.jpeg) | ![切り込みを入れる](build-guide/pcb_cutter.jpeg) |
 |:--:|:--:|
 | PCB を取り出し、カッターマットの上に置きます | ミシン目に沿って、カッターで切り込みを入れます。<br/>他の部分に傷をつけないよう、弱めの力で何十回も刃を当てます。 |
-| ![切り込みを入れた](pcb_cutted.jpeg) | ![折る](pcb_fold.jpeg) |
+| ![切り込みを入れた](build-guide/pcb_cutted.jpeg) | ![折る](build-guide/pcb_fold.jpeg) |
 | 両サイド両面、ぜんぶで4箇所に切り込みを入れおわりました。 | 他の部分が折れたり曲がったりしないよう注意して折ります。<br/>固いようなら無理して折りとろうとせず、さらにカッターで深く切り込みを入れ直してください。 |
-| ![折れた](pcb_broken.jpeg) | ![やすりがけ](pcb_sanding.jpeg) |
+| ![折れた](build-guide/pcb_broken.jpeg) | ![やすりがけ](build-guide/pcb_sanding.jpeg) |
 | 両サイドとも無事綺麗に折れました。真ん中の小さな破片は不要なので捨てます。 | 折り取った面はギザギザで危ないので、棒やすりで綺麗にします。<br/>やすりがけ作業は粉が飛び散るので、掃除しやすい場所で汚れても良い格好で行うことをおすすめします。 |
-| ![やすった](pcb_sanded.jpeg) |
+| ![やすった](build-guide/pcb_sanded.jpeg) |
 | 綺麗になりました。周囲を指でなぞって真っ平らになっていれば、微妙に縦線が入って見えていても大丈夫です。 |
 
 
@@ -319,7 +319,7 @@ PCB を 2 つに分割します。ミシン目に沿ってカッターで切り�
 
 油性ペンで側面をなぞり、表面や裏面についてしまったインクはティッシュやキムワイプで拭き取ります。
 
-| ![色を塗る](pcb_coloring.jpeg) | ![乾かす](pcb_colored.jpeg) |
+| ![色を塗る](build-guide/pcb_coloring.jpeg) | ![乾かす](build-guide/pcb_colored.jpeg) |
 |:--:|:--:|
 | PCB側面をペンで塗ります。はみだしたらすぐに拭き取ります | その後すぐに作業をすると手が汚れるので、乾かします。 |
 
@@ -337,10 +337,10 @@ ProMicro とコンスルーが直角に取り付けられるよう、メイン�
 ProMicro とコンスルーのはんだ付けが済んだら、ProMicro(とコンスルーをはんだ付けしたもの) は一度メイン基板から取り外しておきます。
 
 
-| ![コンスルー](konsuru.jpeg) | ![プロマイクロに挿す](promicro_konsuru_l.jpeg) |
+| ![コンスルー](build-guide/konsuru.jpeg) | ![プロマイクロに挿す](build-guide/promicro_konsuru_l.jpeg) |
 |:--:|:--:|
 | コンスルーには向き(窓があいてる/あいてない)があります。 | コンスルーの向きを揃えて、 ProMicro のチップが見える側の面に挿します。 |
-| ![反対側](promicro_konsuru_r.jpeg) | ![はんだ付け](promicro_solder.jpeg) |
+| ![反対側](build-guide/promicro_konsuru_r.jpeg) | ![はんだ付け](build-guide/promicro_solder.jpeg) |
 | 反対から見た図。コンスルーの向きが揃っているのを確認します。 | メイン基板 (PCB) に嵌めたうえで、各ピンを上からはんだ付けします。<br/>(写真を撮り忘れて後から撮影したので、ProMicro 以外のものも取り付けられていますが見なかったことにしてください。) |
 
 
@@ -360,12 +360,12 @@ ProMicro とコンスルーのはんだ付けが済んだら、ProMicro(とコ�
 
 LED は非常に小さいパーツなので、ぶち撒けて悲しい気持ちにならないよう少しずつ取り出して取り付けると良いです。
 
-| ![こて温度設定](led_kote.jpeg) | ![置く](led_number.jpeg) |
+| ![こて温度設定](build-guide/led_kote.jpeg) | ![置く](build-guide/led_number.jpeg) |
 |:--:|:--:|
 | はんだごての温度を低めに設定すると LED を焼き切ってしまう可能性が格段に減ります。<br/>使用するはんだの融点を確認して、なるべく低温で作業してください。 | PCB は裏向き(銀色のパッドが上に来る) に置きます。 |
-| ![LED取り付け穴](led_hole.jpeg) | ![LED配置例](led_hole_set.jpeg) |
+| ![LED取り付け穴](build-guide/led_hole.jpeg) | ![LED配置例](build-guide/led_hole_set.jpeg) |
 | LED は白い文字(シルク)で Backlight あるいは Underglow と書かれた四角い穴に取り付けます。<br/>**L1, L2, ... と書かれた取り付け番号順に従って取り付けていってください。** | LED は向きがあります。Backlight は下向きに、Underglow は上向きに配置します。<br/>また LED から伸びた 4 本のタブのうち 1 つだけ切り欠きがあるので、そのタブが 'G' の位置に来るようにします。<br/>**向きが間違っているとLEDは点灯せず、最悪キーボード自体の故障にもつながります。細心の注意をはらって配置してください。** |
-| ![バックライト取り付け順](led_number_bg.jpeg) | ![バックライト取り付け例](led_soldered_bg.jpeg) |
+| ![バックライト取り付け順](build-guide/led_number_bg.jpeg) | ![バックライト取り付け例](build-guide/led_soldered_bg.jpeg) |
 | 図のように親指側から小指の順に、LED取り付け穴のそばにある白字の L1, L2 ... の記載(シルク)の番号順にそって取り付けます。 | L1 をはんだ付けしました。LEDのタブが基板から浮いていないか、しっかり目視確認してください。 |
 
 
@@ -388,7 +388,7 @@ PC がスリープしてない普通の時にテストしましょう。
 
 **良いかんじに取り付け＆テストが進んでいる様子**
 
-| ![1](led_test_1.jpeg) | ![2](led_test_2.jpeg) | ![3](led_test_3.jpeg) | ![4](led_test_4.jpeg) | ![5](led_test_5.jpeg) |
+| ![1](build-guide/led_test_1.jpeg) | ![2](build-guide/led_test_2.jpeg) | ![3](build-guide/led_test_3.jpeg) | ![4](build-guide/led_test_4.jpeg) | ![5](build-guide/led_test_5.jpeg) |
 |:--:|:--:|:--:|:--:|:--:|
 |親指のバックライトが光りました|人差し指も光りました|続いて中指と薬指。もうちょっと!|小指も完了。これでバックライトは完了!|アンダーグラウンドもOK。<br/>片手ぶんすべて完了!!|
 
@@ -396,7 +396,7 @@ PC がスリープしてない普通の時にテストしましょう。
 
 バックライト LED の取り付けが完了して、LED TEST もすべてパスしたらアンダーグロウ LED  (左手:L22〜L27、右手: L50〜L55) の取り付けに取り掛かります。左右 6 個ずつ、計 12 個取り付けます。
 
-| ![アンダーグロウ取り付け順](led_number_ug.jpeg) | ![アンダーグロウ取り付け例](led_soldered_ug.jpeg) |
+| ![アンダーグロウ取り付け順](build-guide/led_number_ug.jpeg) | ![アンダーグロウ取り付け例](build-guide/led_soldered_ug.jpeg) |
 |:--:|:--:|
 | 次はアンダーグロウです。バックライト同様、シルクの番号順に取り付けます。 | L27 を取り付けました。バックグラウンドとアンダーグロウは表裏が逆になるので注意してください。 |
 
@@ -420,7 +420,7 @@ elephant42 に使用されている YS-SK6812MINI-E でなく、その改良前�
 
 YS-SK6812MINI-E のピンアサインは以下の通りなので、SK6812MINI のそれとは異なります。適宜読み替えてください。
 
-| ![LED ピンアサイン(表)](led_f.jpeg) | ![LED ピンアサイン(裏)](led_b.jpeg) |
+| ![LED ピンアサイン(表)](build-guide/led_f.jpeg) | ![LED ピンアサイン(裏)](build-guide/led_b.jpeg) |
 |:--:|:--:|
 | LED ピンアサイン(表) | LED ピンアサイン(裏) |
 
@@ -431,7 +431,7 @@ YS-SK6812MINI-E のピンアサインは以下の通りなので、SK6812MINI �
 
 ダイオードは非常に小さいパーツなので、ぶち撒けて暗い気持ちにならないよう少しずつ取り出して取り付けると良いです。
 
-| ![ダイオード取り付け前](diode_before.jpeg) | ![ダイオード取り付け後](diode_soldered.jpeg) |
+| ![ダイオード取り付け前](build-guide/diode_before.jpeg) | ![ダイオード取り付け後](build-guide/diode_soldered.jpeg) |
 |:--:|:--:|
 | `\|◁` マークのシルクがある箇所に取り付けます。 | `\|◁` の `\|` がある方にダイオードの縦線が向くように取り付けます。 |
 
@@ -441,7 +441,7 @@ YS-SK6812MINI-E のピンアサインは以下の通りなので、SK6812MINI �
 
 スイッチソケットはさほど小さいパーツでもなく、ぶち撒けても言うほど辛い気持ちにはなりませんが、それでも一応少しずつ取り出して取り付けると良いです。
 
-| ![ソケット取り付け前](socket_soldered.jpeg) | ![ソケット注意点](socket_attention.jpeg) |
+| ![ソケット取り付け前](build-guide/socket_soldered.jpeg) | ![ソケット注意点](build-guide/socket_attention.jpeg) |
 |:--:|:--:|
 | ソケットを取り付けます。シルクの枠線通りに取り付けてください。 | 一部ダイオード取り付け位置とすごく近い所があるので気をつけて取り付けてください。 |
 
@@ -453,7 +453,7 @@ TRRS ジャックおよび リセットスイッチをそれぞれ左右 1 つ�
 
 TRRS ジャックは裏返したさいに落ちてしまうので、マスキングテープで固定しておくと良いです。
 
-| ![取り付け例](trrs_switch.jpeg) |
+| ![取り付け例](build-guide/trrs_switch.jpeg) |
 |:--:|
 | 表側から TRRS ジャックとスイッチを嵌めこみ、裏側からはんだ付けをします。**表裏に注意してください。** |
 
@@ -466,10 +466,10 @@ OLED を取り付ける場合は、OLED 付属のピンソケットを取り付�
 
 ピンソケットは裏返したさいに落ちてしまうので、マスキングテープで固定しておくと良いです。
 
-| ![取り付け例](oled_socket.jpeg) | ![完了](oled_soldered.jpeg) |
+| ![取り付け例](build-guide/oled_socket.jpeg) | ![完了](build-guide/oled_soldered.jpeg) |
 |:--:|:--:|
 | 表側からピンソケットを嵌めこみ、裏側からはんだ付けをします。**表裏に注意してください。** | ピンソケットにピンヘッダを挿し、さらに OLED を挿し、OLED とピンヘッダをはんだ付けします。 |
-| ![初回分注意](oled_socket_rc.jpeg) |![初回分注意](oled_socket_rc_2.jpeg) ||
+| ![初回分注意](build-guide/oled_socket_rc.jpeg) |![初回分注意](build-guide/oled_socket_rc_2.jpeg) ||
 | **!注意!** (ごめんなさい。。)<br/>RC版(初期販売分) は ProMicro とピンソケットのクリアランスがシビアになってしまっています。<br/>先にProMicroを装着し、ピンソケットの位置合わせをしたうえで取り付けてください。 | また、RC版(初期販売分) は完成後にちょっとだけOLED がはみ出してしまいます。なお、動作は全く問題ないのでご安心ください。 |
 
 
@@ -489,10 +489,10 @@ OLED を取り付ける場合は、OLED 付属のピンソケットを取り付�
 
 https://www.keyboardtester.com/
 
-| ![ProMicroを取り付ける](test_start.jpeg) | ![スイッチソケットをショートする](test_short.jpeg) |
+| ![ProMicroを取り付ける](build-guide/test_start.jpeg) | ![スイッチソケットをショートする](build-guide/test_short.jpeg) |
 |:--:|:--:|
 | 表側から ProMicro を取り付け、全てのケーブルを接続し、再度ファームウェアを焼きます。<br/>OLEDを取り付ける場合は、OLEDも取り付けます。 | 任意のキーソケットをショートさせ、該当するキーが押されたように振る舞うかを確認する。**裏側から触っていることになるため、左右逆になります。** |
-| ![デフォルトキーマップ(左)](default_keymap_l.jpeg) | ![デフォルトキーマップ(右)](default_keymap_r.jpeg) |
+| ![デフォルトキーマップ(左)](build-guide/default_keymap_l.jpeg) | ![デフォルトキーマップ(右)](build-guide/default_keymap_r.jpeg) |
 | 左手のデフォルトキーマップ。裏返しているので右側に来ているかと思います。 | 右手のデフォルトキーマップ。裏返しているので左側に来ているかと思います。 |
 
 ### 動作確認 トラブルシューティング
@@ -557,16 +557,16 @@ Raise(右手側親指、内側から2番目を押しっぱなしにする) + c �
 
 さぁ、完成も間近です。
 
-| ![ProMicro 保護プレートの取り付け 1](assemble_promicro_plate_1.jpeg) | ![ProMicro 保護プレートの取り付け 2](assemble_promicro_plate_2.jpeg) |
+| ![ProMicro 保護プレートの取り付け 1](build-guide/assemble_promicro_plate_1.jpeg) | ![ProMicro 保護プレートの取り付け 2](build-guide/assemble_promicro_plate_2.jpeg) |
 |:--:|:--:|
 | ProMicro 保護プレートにスペーサーをねじ留めします。<br/>OLED を取り付けている場合はスペーサー(長)を、取り付けていない場合はスペーサー(短)を使用してください。 | さらに ProMicro 保護プレート + スペーサーを基板にねじ留めします。 |
-| ![トッププレートの取り付け](assemble_top_plate.jpeg) | ![ミドルプレートの取り付け](assemble_middle_plate.jpeg) |
+| ![トッププレートの取り付け](build-guide/assemble_top_plate.jpeg) | ![ミドルプレートの取り付け](build-guide/assemble_middle_plate.jpeg) |
 | トッププレートにスペーサー(短)をねじ留めします。 | その上からミドルプレートを乗せます。 |
-| ![PCB の取り付け](assemble_pcb.jpeg) | ![ボトムプレートの取り付け](assemble_bottom_plate.jpeg) |
+| ![PCB の取り付け](build-guide/assemble_pcb.jpeg) | ![ボトムプレートの取り付け](build-guide/assemble_bottom_plate.jpeg) |
 | さらに PCB を乗せます。 | 最後にボトムプレートを乗せ、ねじ留めします。 |
-| ![クッションゴムの取り付け](assemble_cushon_rubber.jpeg) | ![ねじ留め完了](assemble_complete.jpeg) |
+| ![クッションゴムの取り付け](build-guide/assemble_cushon_rubber.jpeg) | ![ねじ留め完了](build-guide/assemble_complete.jpeg) |
 | クッションゴムを貼りつけます。 | ひっくり返して、キーボード本体の完成です。 |
-| ![キースイッチの取り付け](assemble_key_switch.jpeg) | ![キーキャップの取り付け](assemble_keycap.jpeg) |
+| ![キースイッチの取り付け](build-guide/assemble_key_switch.jpeg) | ![キーキャップの取り付け](build-guide/assemble_keycap.jpeg) |
 | あとはお好みのキースイッチを取りつけ・・・ | キーキャップをはめこめば、できあがり!! |
 
 両手ぶん作成し、ケーブル類を繋げれば、貴方だけの elephant42 が目の前にあるはずです。おめでとう!!
