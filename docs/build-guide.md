@@ -232,7 +232,6 @@ make elephant42:default
 としてください。
 
 
-
 ## Pro Micro のもげ対策
 
 必須ではありませんが、やっておくと悲しい思いをしなくなるので良いです。
@@ -245,6 +244,31 @@ make elephant42:default
 
 
 # 組み立て作業
+
+## (オプション) ファームウェアの OLED オプションの有効化
+
+**※ OLED を取り付ける場合のみ実施してください。OLED を取り付けていないのにファームウェアで OLED オプションを有効にしてしまうと動作不良の原因となります。**
+
+前章にて `git clone` した QMK ファームウェアの `keyboards/elephant42/rules.mk` をメモ帳などのテキストエディタで開き、
+
+```
+OLED_DRIVER_ENABLE = no     # Disable OLED driver.
+#OLED_DRIVER_ENABLE = yes    # Enable OLED driver.
+```
+
+となっている部分を、以下のように修正します。
+
+```
+#OLED_DRIVER_ENABLE = no     # Disable OLED driver.
+OLED_DRIVER_ENABLE = yes    # Enable OLED driver.
+```
+
+これを保存し、ビルドし直してください。
+
+```
+make elephant42:default
+```
+
 
 ## QMK firmware の書き込み
 
@@ -274,9 +298,10 @@ avrdude done.  Thank you.
 
 **このとき、Pro Micro を勢いよく引っこ抜くと Micro USB ジャック が基板からもげて使い物にならなくなってしまいます。細心の注意を払ってゆっくり優しく真っ直ぐに抜くようにしてください。**
 
-| ![connect](build-guide/./promicro_connect.jpeg) | ![firmware](build-guide/./promicro_reset.jpeg) |
+| ![connect](build-guide/promicro_connect.jpeg) | ![firmware](build-guide/promicro_reset.jpeg) |
 |--|--|
 | PC に ProMicro を接続し、書き込みコマンドを起動します | 待機状態になったら、RST と GND を一瞬ショートさせて書き込み処理を実行します |
+
 
 ### QMK 書き込み トラブルシューティング
 
