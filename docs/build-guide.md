@@ -26,6 +26,7 @@
   - [QMK firmware ビルド環境の構築](#qmk-firmware-%E3%83%93%E3%83%AB%E3%83%89%E7%92%B0%E5%A2%83%E3%81%AE%E6%A7%8B%E7%AF%89)
   - [Pro Micro のもげ対策](#pro-micro-%E3%81%AE%E3%82%82%E3%81%92%E5%AF%BE%E7%AD%96)
 - [組み立て作業](#%E7%B5%84%E3%81%BF%E7%AB%8B%E3%81%A6%E4%BD%9C%E6%A5%AD)
+  - [(オプション) ファームウェアの OLED オプションの有効化](#%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3-%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E3%81%AE-oled-%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E6%9C%89%E5%8A%B9%E5%8C%96)
   - [QMK firmware の書き込み](#qmk-firmware-%E3%81%AE%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF)
     - [QMK 書き込み トラブルシューティング](#qmk-%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF-%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0)
   - [メイン基板 (PCB) の分割](#%E3%83%A1%E3%82%A4%E3%83%B3%E5%9F%BA%E6%9D%BF-pcb-%E3%81%AE%E5%88%86%E5%89%B2)
@@ -49,6 +50,7 @@
   - [キーマップのカスタマイズ](#%E3%82%AD%E3%83%BC%E3%83%9E%E3%83%83%E3%83%97%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA)
   - [OLED のカスタマイズ](#oled-%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA)
   - [アクリルプレートのカスタマイズ](#%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA)
+- [さいごに](#%E3%81%95%E3%81%84%E3%81%94%E3%81%AB)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
