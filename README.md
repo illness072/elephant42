@@ -23,4 +23,4 @@ currently, not compatible with some switches.
 
 ## assembly
 
-[Build Guide (Japanese)](doc/build-guide.md)
+[Build Guide (Japanese)](docs/build-guide.md)
