@@ -4,6 +4,8 @@
 
 ![what-is-this](what-is-this.jpg)
 
+more: [Appeal (Japanese)](docs/appeal.md)
+
 ## plates
 
 see description*.jpg
