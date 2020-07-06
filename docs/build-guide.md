@@ -63,15 +63,17 @@
 
 | ![基板(PCB)](build-guide/item_pcb.jpeg) | ![トッププレート](build-guide/item_top_plate.jpeg) | ![ミドルプレート](build-guide/item_middle_plate.jpeg) | ![ボトムプレート](build-guide/item_bottom_plate.jpeg) |
 |:--:|:--:|:--:|:--:|
-|メイン基板(PCB) ... 1枚|トッププレート ... 2枚<br/>(薄くて穴が小さい方)|ミドルプレート ... 2枚<br/>(厚くて穴が大きい方)|ボトムプレート ... 2枚|
+|メイン基板(PCB) ... 1枚<br/>**※1**|トッププレート ... 2枚<br/>(薄くて穴が小さい方)|ミドルプレート ... 2枚<br/>(厚くて穴が大きい方)|ボトムプレート ... 2枚|
 | ![ProMicro 保護プレート](build-guide/item_promicro_plate.jpeg) | ![ダイオード](build-guide/item_diode.jpeg) | ![MX 互換スイッチ用 PCB ソケット](build-guide/item_mx_socket.jpeg) | ![TRRS ジャック](build-guide/item_trrs_jack.jpeg) |
-| ProMicro 保護プレート ... 2枚 | ダイオード ... 44個<br/>(予備2個) | MX 互換スイッチ用<br/>PCB ソケット ... 42個 | TRRS ジャック ... 2個 |
+| ProMicro 保護プレート ... 2枚<br/>**※2** | ダイオード ... 44個<br/>(予備2個) | MX 互換スイッチ用<br/>PCB ソケット ... 42個 | TRRS ジャック ... 2個 |
 | ![タクトスイッチ](build-guide/item_tact_switch.jpeg) | ![スペーサー(短)](build-guide/item_spacer_short.jpeg) | ![スペーサー(長)](build-guide/item_spacer_long.jpeg) | ![ネジ](build-guide/item_screw.jpeg) |
 | タクトスイッチ ... 2個<br/>※色は異なる場合があります | スペーサー(短) ... 20本 | スペーサー(長) ... 4本 | ネジ ... 40本 |
 | ![クッションゴム](build-guide/item_cushion_rubber.jpeg) ||||
 | クッションゴム ... 10個 ||||
 
-※ 初回生産分には、ProMicro 保護プレートは 2mm 厚のものが 2 枚、3mm 厚のものが 2 枚、計 4 枚含まれています。好みで選択してください。
+※1... v1から基板の色は白となりました。組み立て方に違いはありません。
+
+※2... 初回生産分には、ProMicro 保護プレートは 2mm 厚のものが 2 枚、3mm 厚のものが 2 枚、計 4 枚含まれています。好みで選択してください。
 
 ## 必要部品の調達
 
@@ -81,13 +83,14 @@
 
 ### 必須
 
-- Pro Micro(コンスルー付き) ... 2組
+- **Pro Micro(コンスルー付き) ... 2組**
    - おすすめ購入先
      - [Pro Micro （コンスルー付き）| 遊舎工房](https://yushakobo.jp/shop/promicro-spring-pinheader/) ※2つ購入してください
      - TALP KEYBOARD
        - [Pro Micro ATmega32U4 5V/16MHz/MicroUSB2(互換品)](https://talpkeyboard.stores.jp/items/5b24504ba6e6ee7ec60063e3) ※2つ購入してください
        - [MAC8 コンスルー XB-3-2.5-12P (高さ2.5mm/12ピン/1個)](https://talpkeyboard.stores.jp/items/5e056626d790db16e2889233) ※4つ購入してください
      - Amazon などで非常に安価な Pro Micro が複数個セットで販売されていますが、結構な確率で粗悪品を掴むのでちゃんとした店で購入した方が無難です。
+   - 国内キットでは同梱しているキットが多いですが、本キットは同梱していません。
 - MX 互換スイッチ ... 42個
    - おすすめ購入先
      - [Switches | 遊舎工房](https://yushakobo.jp/product-category/switches/)
@@ -99,6 +102,7 @@
      - [Keycaps | 遊舎工房](https://yushakobo.jp/product-category/keycaps/)
      - [TALP KEYBOARD](https://talpkeyboard.stores.jp/?category_id=59be183f428f2d49120007b1)
      - [KEYCAPS - ゆかりキーボードファクトリー](https://eucalyn.shop/product-category/keycaps)
+     - [Tai-Hao shop](https://shop.tai-hao.com/) ※海外
    - キースイッチと同じく「Kailh ロープロファイル (Choc) スイッチ」用のキーキャップは非対応ですのでご注意ください。
 - TRSケーブル ... 1本
     - AUX ケーブル、ステレオミニプラグケーブルなどとも呼ばれています。所謂イヤホンのプラグが両方についてるケーブルです。
@@ -151,6 +155,7 @@
   - 無洗浄タイプのフラックスなら不要というわけではありません。茶色くベタベタして汚らしく、また経年劣化で基板にダメージを与えるらしいので、なるべく使用するようにしてください。
 - キムワイプ
   - [日本製紙クレシア キムワイプ S-200 mini 62015 1個入](https://www.amazon.co.jp/dp/B00CWA23P6)
+  - ティッシュでも代用可能ですが、あまりおすすめはしません。
 - ふつうのピンセット
   - ダイソーで購入したものを使用。プラモデルと共用。
 - ふつうのマスキングテープ
@@ -162,8 +167,9 @@
 
 ### あると良いもの
 
-- 赤の油性ペン
-  - プラモデルで使用するガンダムマーカー(赤)で代用
+- 油性ペン
+  - 基板側面を塗るのに使います。お好みの色を用意してください。
+  - ポスカが発色良くおすすめです。マッキーやプラモデルで使用するガンダムマーカーなどでも問題ありません。
 - ふつうのニッパー
   - ダイソーで購入したものを使用
   - プラモデル用の良いニッパーは刃をダメにするので共用しないことをおすすめします。
@@ -254,15 +260,13 @@ make elephant42:default
 前章にて `git clone` した QMK ファームウェアの `keyboards/elephant42/rules.mk` をメモ帳などのテキストエディタで開き、
 
 ```
-OLED_DRIVER_ENABLE = no     # Disable OLED driver.
-#OLED_DRIVER_ENABLE = yes    # Enable OLED driver.
+OLED_DRIVER_ENABLE = no      # Enable/Disable OLED driver.
 ```
 
-となっている部分を、以下のように修正します。
+となっている部分を、以下のように修正します。(`no` を `yes` にします)
 
 ```
-#OLED_DRIVER_ENABLE = no     # Disable OLED driver.
-OLED_DRIVER_ENABLE = yes    # Enable OLED driver.
+OLED_DRIVER_ENABLE = yes     # Enable/Disable OLED driver.
 ```
 
 これを保存し、ビルドし直してください。
@@ -451,6 +455,15 @@ YS-SK6812MINI-E のピンアサインは以下の通りなので、SK6812MINI �
 |:--:|:--:|
 | LED ピンアサイン(表) | LED ピンアサイン(裏) |
 
+**LED取り付け間違えちゃった!!**
+
+LED の修正で大事な事は、**あわててすぐに取り外さないこと** です。
+
+基本的に、LED自体が壊れるか、向きを間違っているかでなければ、上から温めなおしたり追いはんだをするだけで上手くいくことが多いです。
+
+部品の取り外しを行うさいは、慎重かつ上手にやらないと基板にダメージが行きやすく、最悪ランドが剥れるなどの大惨事になりかねないので十二分に注意してください。
+
+もし基板が破損してしまった場合は、基板単体販売も行っていますのでそちらをご利用ください。
 
 ## ダイオードの取り付け
 
@@ -496,7 +509,13 @@ OLED を取り付ける場合は、OLED 付属のピンソケットを取り付�
 | ![取り付け例](build-guide/oled_socket.jpeg) | ![完了](build-guide/oled_soldered.jpeg) |
 |:--:|:--:|
 | 表側からピンソケットを嵌めこみ、裏側からはんだ付けをします。**表裏に注意してください。** | ピンソケットにピンヘッダを挿し、さらに OLED を挿し、OLED とピンヘッダをはんだ付けします。 |
-| ![初回分注意](build-guide/oled_socket_rc.jpeg) |![初回分注意](build-guide/oled_socket_rc_2.jpeg) ||
+
+### RC版のみ、ご注意ください
+
+** 以下問題は v1 基板(白い基板) では修正済みです。RC版(赤い基板)の方のみ確認してください。**
+
+| ![初回分注意](build-guide/oled_socket_rc.jpeg) |![初回分注意](build-guide/oled_socket_rc_2.jpeg) |
+|:--:|:--:|
 | **!注意!** (ごめんなさい。。)<br/>RC版(初期販売分) は ProMicro とピンソケットのクリアランスがシビアになってしまっています。<br/>先にProMicroを装着し、ピンソケットの位置合わせをしたうえで取り付けてください。 | また、RC版(初期販売分) は完成後にちょっとだけOLED がはみ出してしまいます。なお、動作は全く問題ないのでご安心ください。 |
 
 
@@ -537,6 +556,10 @@ Raise(右手側親指、内側から2番目を押しっぱなしにする) + c �
 **特定のキーが意図してない文字を入力する**
 
 どこかがショートしている可能性が高いです。しらみつぶしに確認してみてください
+
+**特定の行すべて、特定の列すべてが反応しない**
+
+Pro Micro の差し込み不良やコンスルーのはんだ不良が考えられます。
 
 **両手とも全てのキーが反応しない**
 
@@ -638,7 +661,35 @@ Booth の購入履歴よりおまけファイルをダウンロードするこ�
 
 実際のアクリルプレートの発注方法は、おまけファイルの ZIP ファイルを展開すると `readme.txt` というファイルがあり、そちらに詳しく記載していますのでそちらを参考にしてください。
 
+## 専用ケースの 3D プリント
+
+elephant42 専用の [光るパームレスト一体型ケース](https://github.com/illness072/elephant42/tree/master/cases/v1) もあわせて開発中です。
+
+ご自宅の 3Dプリンタや各種 3Dプリントサービスで出力してみてください。
+
+また、[プレートのカットデータ](https://github.com/illness072/elephant42/tree/master/plates) も公開していますので、完全オリジナルのケース設計にも挑戦しやすくなっているかと思います。(作ったらぜひ見せてください!!)
+
+
+# 日々のお手入れ
+
+## 掃除
+
+elephant42 はアクリルプレートを素材に使用する都合上、手脂などによる指紋の付着や、静電気によるホコリの付着がどうしても起こりやすくなっています。
+
+気になる場合はプラスチック/アクリル樹脂用の静電気防止機能つきクリーナー材による定期的な分解清掃をお勧めします。
+
+私は 「アクリサンデー 静電気防止クリーナー ポリケアF70」 というものをよく使っています。
+
+
+## ファームウェアアップデート
+
+問題なく動作しているのであれば、実際定期的なファームウェアアップデートはあまり必要ないですが、QMK Configurator の新機能を試したい時などはやってみるのも良いかもしれません。`git` の扱いに習熟し、ぜひ `pull` してみてください。
+
+また、 elephant42 のファームウェアとしても、OLED 表示のデザイン変更等、たまに気分でアップデートをかけています。興味のある方はぜひ。
+
 
 # さいごに
 
 本ビルドガイドを書くにあたり、なる(@nrtkbb) さんの [uzu42ビルドガイド](https://github.com/nrtkbb/Keyboards/blob/master/uzu42/build_guide_jp.md) を大変参考にさせていただきました。ほんとうにありがとうございました。
+
+elephant42 は、ふく(@yfuku_) さんの [claw44](https://booth.pm/ja/items/1283873) の設計思想に非常に強く影響を受けたキーボードです。すごく良いキーボードですので、良かったらそちらも試してみてください。
