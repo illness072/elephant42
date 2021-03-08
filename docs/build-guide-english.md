@@ -90,38 +90,38 @@ Please refer to the link of the recommended purchase destination (domestic mail 
 
 ### Required
 
--**Pro Micro (with conthrough) ... 2 pairs**
+- **Pro Micro (with conthrough) ... 2 pairs**
    --Recommended purchase destination
      - [Pro Micro (with conthrough) | Yusha Kobo](https://yushakobo.jp/shop/promicro-spring-pinheader/) * Please purchase two
-     --TALP KEYBOARD
+     -- TALP KEYBOARD
        - [Pro Micro ATmega32U4 5V/16MHz/MicroUSB2 (compatible product)](https://talpkeyboard.stores.jp/items/5b24504ba6e6ee7ec60063e3) * Please purchase two
        - [MAC8 Conthru XB-3-2.5-12P (Height 2.5mm/12 pins/1 piece)](https://talpkeyboard.stores.jp/items/5e056626d790db16e2889233) * Please purchase 4
-     ――Very cheap Pro Micro is sold as a set on Amazon etc., but it is safer to buy it at a proper store because you will get a bad product with a good probability.
-   ――Many domestic kits are included, but this kit is not included.
+     -- Very cheap Pro Micro is sold as a set on Amazon etc., but it is safer to buy it at a proper store because you will get a bad product with a good probability.
+   -- Many domestic kits are included, but this kit is not included.
 -- MX compatible switches ... 42
-   --Recommended purchase destination
+   -- Recommended purchase destination
      - [Switches | Yusha Kobo](https://yushakobo.jp/product-category/switches/)
      - [TALP KEYBOARD](https://talpkeyboard.stores.jp/?category_id=59cf8860ed05e668db003f5d)
      - [SWITCHES --Yukari Keyboard Factory](https://eucalyn.shop/product-category/keyswitches)
    --Please note that "Kailh Low Profile (Choc) Switch" and "Kailh Mid-Height Switch" are not supported.
 -- 1U keycap ... 42 pieces
-   --Recommended purchase destination
+   -- Recommended purchase destination
      - [Keycaps | Yusha Kobo](https://yushakobo.jp/product-category/keycaps/)
      - [TALP KEYBOARD](https://talpkeyboard.stores.jp/?category_id=59be183f428f2d49120007b1)
      - [KEYCAPS --Yukari Keyboard Factory](https://eucalyn.shop/product-category/keycaps)
      - [Tai-Hao shop](https://shop.tai-hao.com/) * Overseas
      - [Rice keycap self-made keycap kit --Rabbit Goya --BOOTH](https://booth.pm/ja/items/1783747)
-   --Please note that the keycaps for "Kailh low profile (Choc) switches" are not supported as well as the key switches.
+   -- Please note that the keycaps for "Kailh low profile (Choc) switches" are not supported as well as the key switches.
 -- TRS cable ... 1
-    --Also called an AUX cable or stereo mini plug cable. It is a cable with so-called earphone plugs attached to both.
-      --Good-looking and cheap items are sold on Amazon etc.
-    ――The elephant42 requires a 3-pole (type with 2 black wires) TRS cable, but you can also use a 4-pole (type with 3 black wires) TRRS cable that is often sold at homebrew keyboard shops. It can be substituted.
+    -- Also called an AUX cable or stereo mini plug cable. It is a cable with so-called earphone plugs attached to both.
+      -- Good-looking and cheap items are sold on Amazon etc.
+    -- The elephant42 requires a 3-pole (type with 2 black wires) TRS cable, but you can also use a 4-pole (type with 3 black wires) TRRS cable that is often sold at homebrew keyboard shops. It can be substituted.
       - [TRRS Cable 1m | Yusha Kobo](https://yushakobo.jp/shop/trrs_cable/)
       - [Self-made cable kit | Yusha Kobo](https://yushakobo.jp/shop/self-made-cable/)
       - [Transparent cable --Rabbit Goya --BOOTH](https://illness072.booth.pm/items/2227567)
 -- USB cable (Type-A to Micro-B) ... 1
-    ――It is a so-called Micro USB cable.
-      --Good-looking items are sold on Amazon etc.
+    -- It is a so-called Micro USB cable.
+      -- Good-looking items are sold on Amazon etc.
       - [USB Cable Micro B 1m | Yusha Kobo](https://yushakobo.jp/shop/usb_cable_micro_b/)
       - [Self-made cable kit | Yusha Kobo](https://yushakobo.jp/shop/self-made-cable/)
       - [USB2.0 cable (0.6m/USB (A) male--USB (Micro-B) male) | TALP KEYBOARD](https://talpkeyboard.stores.jp/items/5df82904a551d528d7360c34)
@@ -133,8 +133,8 @@ Please refer to the link of the recommended purchase destination (domestic mail 
     - [OLED module | Yusha Kobo](https://yushakobo.jp/shop/oled/) * Please select with pin socket
 1. YS-SK6812MINI-E ... 54 pieces
     - [YS-SK6812MINI-E (10 pieces) | Yusha Kobo](https://yushakobo.jp/shop/ys-sk6812mini-e/) * Please purchase 6 packs (6 pieces left)
-    -**The conventional product "[SK6812MINI](https://yushakobo.jp/shop/sk6812mini-35/)" cannot be used because it is not compatible.**
-    -*** When purchasing at the Yusha Kobo actual store, do not accidentally purchase "[Reverse Mount RGB LED](https://yushakobo.jp/shop/a0800rl-10/)" which looks very similar. be careful. It cannot be used because it is not compatible.**
+    - **The conventional product "[SK6812MINI](https://yushakobo.jp/shop/sk6812mini-35/)" cannot be used because it is not compatible.**
+    - *** When purchasing at the Yusha Kobo actual store, do not accidentally purchase "[Reverse Mount RGB LED](https://yushakobo.jp/shop/a0800rl-10/)" which looks very similar. be careful. It cannot be used because it is not compatible.**
 
 
 ## Tool Preparations
@@ -160,38 +160,38 @@ Also, if there is a work space in a place that is easily accessible from home, y
   - [HAKKO trowel stand 633-01](https://www.amazon.co.jp/dp/B000TGNWCS)
 - flux
   - [goot PCB Flux BS-75B](https://www.amazon.co.jp/dp/B004ANR7KY/)
-  ――I sometimes see people who say that they can do it without it, but they are almost certainly advanced people who want to brag about their skills. Especially when you turn on the LED, please think that it is almost indispensable.
+  -- I sometimes see people who say that they can do it without it, but they are almost certainly advanced people who want to brag about their skills. Especially when you turn on the LED, please think that it is almost indispensable.
 -- Flux cleaner
   - [Tayo Denki Sangyo (goot) Flux Remover BS-T20B](https://www.amazon.co.jp/dp/B07JHJHTYG/)
-  ――It is not unnecessary if it is a non-cleaning type flux. It is brown and sticky and dirty, and it seems that it will damage the board due to aging, so please use it as much as possible.
+  -- It is not unnecessary if it is a non-cleaning type flux. It is brown and sticky and dirty, and it seems that it will damage the board due to aging, so please use it as much as possible.
 -- Kimwipe
   - [Nippon Paper Crecia Kim Wipe S-200 mini 62015 1 piece](https://www.amazon.co.jp/dp/B00CWA23P6)
-  ――Tissue can be used as a substitute, but I don't recommend it.
+  -- Tissue can be used as a substitute, but I don't recommend it.
 -- Normal tweezers
-  --Use the one purchased from Daiso. Shared with plastic model.
+  -- Use the one purchased from Daiso. Shared with plastic model.
 -- Normal masking tape
-  --Use the one purchased from Daiso. Shared with plastic model.
+  -- Use the one purchased from Daiso. Shared with plastic model.
 -- Stick file
-  --Use the one purchased from Daiso. Shared with plastic model.
+  -- Use the one purchased from Daiso. Shared with plastic model.
 -- Ordinary utility knife
-  ――Anything is fine as long as it expires. This time, the design knife used in the plastic model is used instead.
+  -- Anything is fine as long as it expires. This time, the design knife used in the plastic model is used instead.
 
 ### Good Things to Have
 
 -- Oil-based pen
-  ――Used to paint the side of the board. Please prepare your favorite color.
-  ――POSCA is recommended because of its good coloring. There is no problem with Gundam markers used in McKee and plastic models.
+  -- Used to paint the side of the board. Please prepare your favorite color.
+  -- POSCA is recommended because of its good coloring. There is no problem with Gundam markers used in McKee and plastic models.
 -- Normal nippers
-  --Use what you purchased at Daiso
-  ――It is recommended that you do not share good nippers for plastic models as they will damage the blade.
+  -- Use what you purchased at Daiso
+  -- It is recommended that you do not share good nippers for plastic models as they will damage the blade.
 -- Epoxy adhesive
-  --Use what you purchased at Daiso
+  -- Use what you purchased at Daiso
 -- Tester
-  ――I think it's better to have it, but I'm using a battery, an electronic buzzer, and a lead wire that are just loosely attached.
+  -- I think it's better to have it, but I'm using a battery, an electronic buzzer, and a lead wire that are just loosely attached.
 -- Soldering work mat
-  ――I think it's better to have it, but I'm not using it
+  -- I think it's better to have it, but I'm not using it
 -- Cutter mat
-  --You can use old newspapers or the outer box of this kit as long as you don't damage your desk. This time I used the one used in the plastic model
+  -- You can use old newspapers or the outer box of this kit as long as you don't damage your desk. This time I used the one used in the plastic model
 
 ### Useful for Shopping
 
