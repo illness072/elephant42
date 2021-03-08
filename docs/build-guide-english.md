@@ -150,7 +150,7 @@ Also, if there is a work space in a place that is easily accessible from home, y
   - [Goot High Density Integrated Substrate Solder SD-60](https://www.amazon.co.jp//dp/B0029LGAJI/)
     - Most parts are installed here
   - [Kutomi Denki Sangyo SH-43 Cryogenic Solder](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=6A2W-CFJP)
-    --Only the LED (YS-SK6812mini-E) has a risk of breaking at high temperatures, so I am using this just in case.
+    -- Only the LED (YS-SK6812mini-E) has a risk of breaking at high temperatures, so I am using this just in case.
 - Soldering wire
   - [goot solder blotting wire CP-3015](https://www.amazon.co.jp/dp/B001PR1KPQ)
 - Soldering iron
@@ -229,7 +229,7 @@ https://youtu.be/vqKKElJ1vw0
 
 The Daihuku Keyboiard channel made a great video, so please watch it and check the build !!
 
-[! [I tried to make my own keyboard elephant42 edition | elephant42: Custom Mechanical Keyboard Build](https://img.youtube.com/vi/GmBnI3VYiT4/0.jpg)](https://www.youtube.com/watch) ? v = GmBnI3VYiT4)
+[! [I tried to make my own keyboard elephant42 edition | elephant42: Custom Mechanical Keyboard Build](https://img.youtube.com/vi/GmBnI3VYiT4/0.jpg)](https://www.youtube.com/watch?v=GmBnI3VYiT4)
 
 By the way, it would be good to have a high rating and subscribe to the channel !!!!
 
