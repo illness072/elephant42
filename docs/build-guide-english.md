@@ -148,14 +148,14 @@ Also, if there is a work space in a place that is easily accessible from home, y
 
 - Solder
   - [Goot High Density Integrated Substrate Solder SD-60](https://www.amazon.co.jp//dp/B0029LGAJI/)
-    --Most parts are installed here
+    - Most parts are installed here
   - [Kutomi Denki Sangyo SH-43 Cryogenic Solder](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=6A2W-CFJP)
     --Only the LED (YS-SK6812mini-E) has a risk of breaking at high temperatures, so I am using this just in case.
 - Soldering wire
   - [goot solder blotting wire CP-3015](https://www.amazon.co.jp/dp/B001PR1KPQ)
 - Soldering iron
   - [White light dial type temperature control soldering iron FX600](https://www.amazon.co.jp/dp/B006MQD7M4)
-  -**We strongly recommend that you have a temperature control function**
+  - **We strongly recommend that you have a temperature control function**
 - Iron stand
   - [HAKKO trowel stand 633-01](https://www.amazon.co.jp/dp/B000TGNWCS)
 - flux
@@ -209,7 +209,7 @@ The elephant42 will be soldered at a minimum of approximately 200 locations and 
 
 Especially for those who are new to life or who haven't soldered in a long time since junior high school, it's a good idea to study how to solder.
 
-If you skip here and start suddenly with the desire to complete it quickly, it will not fit in with you.**really.**
+If you skip here and start suddenly with the desire to complete it quickly, it will not fit in with you. **really.**
 
 
 Basic operation of soldering
@@ -261,10 +261,10 @@ Please.
 
 ### QMK Environment Construction Troubleshooting
 
-No matter how hard I try the above,**I can't build the environment**, I'm allergic to the command line,
+No matter how hard I try the above, **I can't build the environment**, I'm allergic to the command line,
 If you have a situation where you can't use anything other than GUI, please see [here](via.md).
 
-However, we would like to make this method**deprecated**for now, and only when using this method**we will not support**advice, answers to questions, etc.**.
+However, we would like to make this method **deprecated** for now, and only when using this method **we will not support** advice, answers to questions, etc.
 Think of it as insurance when it just doesn't work.
 
 ## Pro Micro's measures against baldness
@@ -484,7 +484,7 @@ The pin assignment of YS-SK6812MINI-E is as follows, so it is different from tha
 
 **I made a mistake in installing the LED !!**
 
-The important thing about fixing the LED is**don't rush to remove it**.
+The important thing about fixing the LED is **don't rush to remove it**.
 
 Basically, unless the LED itself is broken or misoriented, it often works just by reheating or re-soldering from above.
 
@@ -494,7 +494,7 @@ If the board is damaged, we also sell the board as a single unit, so please use 
 
 ## Installation of diode
 
-Install a total of 42 diodes, 21 on each side.**Please note that the diode is oriented.**
+Install a total of 42 diodes, 21 on each side. **Please note that the diode is oriented.**
 
 The diode is a very small part, so it's a good idea to take it out and install it little by little so that you don't feel dark when you sprinkle it.
 
@@ -504,7 +504,7 @@ The diode is a very small part, so it's a good idea to take it out and install i
 
 ## Installing the switch socket
 
-Install 21 switch sockets on each side, for a total of 42.**Please note that the socket is also oriented.**
+Install 21 switch sockets on each side, for a total of 42. **Please note that the socket is also oriented.**
 
 The switch socket isn't a very small part, and it doesn't feel as painful to sprinkle it on, but it's still a good idea to take it out and install it little by little.
 
@@ -522,7 +522,7 @@ The TRRS jack will fall off when turned inside out, so it's a good idea to secur
 
 |![Installation example](build-guide/trrs_switch.jpeg) |
 |:-: |
-| Insert the TRRS jack and switch from the front side, and solder from the back side.**Please note the front and back.**|
+| Insert the TRRS jack and switch from the front side, and solder from the back side. **Please note the front and back.**|
 
 If you feel that the TRRS jack or reset switch that pops out of the PCB is too long, cut it a little with nippers to improve its appearance.
 
@@ -530,13 +530,13 @@ If you feel that the TRRS jack or reset switch that pops out of the PCB is too l
 
 When installing an OLED, install the pin socket that came with the OLED.
 
-This is also**fitted from the front side and soldered on the back side.**
+This is also **fitted from the front side and soldered on the back side.**
 
 The pin socket will fall off when turned inside out, so it's a good idea to fix it with masking tape.
 
 |![Installation example](build-guide/oled_socket.jpeg) |![Done](build-guide/oled_soldered.jpeg) |
 |:-: |:-: |
-| Insert the pin socket from the front side and solder from the back side.**Please note the front and back.**| Insert the pin header into the pin socket, then insert the OLED and solder the OLED to the pin header. |
+| Insert the pin socket from the front side and solder from the back side. **Please note the front and back.**| Insert the pin header into the pin socket, then insert the OLED and solder the OLED to the pin header. |
 
 ### Please note only the RC version
 
@@ -551,7 +551,7 @@ The pin socket will fall off when turned inside out, so it's a good idea to fix 
 
 At this point, all the soldering work has been completed. Let's check if the work so far is done well.
 
-First, install the ProMicro and connect the TRS and USB cables.**Make sure to insert the USB cable on the left hand side.**
+First, install the ProMicro and connect the TRS and USB cables. **Make sure to insert the USB cable on the left hand side.**
 
 If you are burning the firmware for LED TEST with [LED TEST] (# led-test-method), refer to the procedure of [Write QMK firmware] (Write # qmk-firmware-) again to elephant42 firmware. Bake.
 
@@ -565,7 +565,7 @@ https://www.keyboardtester.com/
 
 |![Install ProMicro](build-guide/test_start.jpeg) |![Short switch socket](build-guide/test_short.jpeg) |
 |:-: |:-: |
-| Install ProMicro from the front side, connect all cables, and burn the firmware again. <br/> When installing OLED, install OLED as well. | Short any key socket and see if the key behaves as if it were pressed.**Because you are touching from the back side, the left and right sides are reversed.**|
+| Install ProMicro from the front side, connect all cables, and burn the firmware again. <br/> When installing OLED, install OLED as well. | Short any key socket and see if the key behaves as if it were pressed. **Because you are touching from the back side, the left and right sides are reversed.**|
 |![Default keymap (left)](build-guide/default_keymap_l.jpeg) |![Default keymap (right)](build-guide/default_keymap_r.jpeg) |
 | The default keymap for the left hand. I think it's on the right side because it's turned inside out. | Right hand default keymap. I think it's on the left side because it's turned inside out. |
 
