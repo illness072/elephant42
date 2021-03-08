@@ -134,7 +134,7 @@ Please refer to the link of the recommended purchase destination (domestic mail 
 1. YS-SK6812MINI-E ... 54 pieces
     - [YS-SK6812MINI-E (10 pieces) | Yusha Kobo](https://yushakobo.jp/shop/ys-sk6812mini-e/) * Please purchase 6 packs (6 pieces left)
     - **The conventional product "[SK6812MINI](https://yushakobo.jp/shop/sk6812mini-35/)" cannot be used because it is not compatible.**
-    - *** When purchasing at the Yusha Kobo actual store, do not accidentally purchase "[Reverse Mount RGB LED](https://yushakobo.jp/shop/a0800rl-10/)" which looks very similar. be careful. It cannot be used because it is not compatible.**
+    - **When purchasing at the Yusha Kobo actual store, do not accidentally purchase "[Reverse Mount RGB LED](https://yushakobo.jp/shop/a0800rl-10/)" which looks very similar. be careful. It cannot be used because it is not compatible.**
 
 
 ## Tool Preparations
@@ -713,7 +713,7 @@ I often use something called "Acry Sunday Antistatic Cleaner Polycare F70".
 
 ## Firmware update
 
-If it's working fine, you don't really need regular firmware updates, but if you want to try out the new features of QMK Configurator, you might want to try it. Familiarize yourself with `git` and try` pull`.
+If it's working fine, you don't really need regular firmware updates, but if you want to try out the new features of QMK Configurator, you might want to try it. Familiarize yourself with `git` and try `pull`.
 
 Also, the firmware of elephant42 is updated occasionally, such as changing the design of the OLED display. By all means if you are interested.
 
