@@ -12,7 +12,7 @@
 
 dependency on
 
-  - https://github.com/foostan/kbd/tree/master/kbd.pretty
+  - https://github.com/foostan/kbd/tree/master/kicad-footprints/kbd.pretty
 
 
 ## cases
